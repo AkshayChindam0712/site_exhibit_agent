@@ -1,0 +1,252 @@
+{
+  "site": {
+    "county": "Bernalillo County, NM",
+    "parcel_id": "726867106421875926",
+    "projection": "EPSG:32613",
+    "site_outline_source": "coordinates"
+  },
+  "site_plan": {
+    "map_type": "AERIAL",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Bernalillo_County_NM_Parcel_726867106421875926.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Bernalillo_County_NM_Parcel_726867106421875926.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Bernalillo_County_NM_Parcel_726867106421875926.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Bernalillo_County_NM_Parcel_726867106421875926.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Bernalillo_County_NM_Parcel_726867106421875926.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Bernalillo_County_NM_Parcel_726867106421875926.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": 2022,
+      "scale": "1:1,200",
+      "bbox": [
+        349430.12827199884,
+        349661.7762719989,
+        3883520.4569766517,
+        3883776.4889766513
+      ],
+      "layer_bbox": [
+        349250.58143791277,
+        3883309.1941201384,
+        349841.32310608495,
+        3883987.7518331646
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_348500.581438_3882559.194120_350591.323106_3884737.751833.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": true,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "cache",
+    "photo_year": 2022,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      349430.12827199884,
+      349661.7762719989,
+      3883520.4569766517,
+      3883776.4889766513
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": true,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "site_location": {
+    "map_type": "TOPO",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Bernalillo_County_NM_Parcel_726867106421875926.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Bernalillo_County_NM_Parcel_726867106421875926.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Bernalillo_County_NM_Parcel_726867106421875926.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Bernalillo_County_NM_Parcel_726867106421875926.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Bernalillo_County_NM_Parcel_726867106421875926.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Bernalillo_County_NM_Parcel_726867106421875926.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": null,
+      "scale": "1:1,200",
+      "bbox": [
+        349430.12827199884,
+        349661.7762719989,
+        3883520.4569766517,
+        3883776.4889766513
+      ],
+      "layer_bbox": [
+        349250.58143791277,
+        3883309.1941201384,
+        349841.32310608495,
+        3883987.7518331646
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_348500.581438_3882559.194120_350591.323106_3884737.751833.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": false,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "USGS Topo",
+    "photo_year": null,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      349430.12827199884,
+      349661.7762719989,
+      3883520.4569766517,
+      3883776.4889766513
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": false,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "historical": {
+    "created_at": "2026-09-10T14:23:27.824820Z",
+    "county": "Bernalillo County, NM",
+    "parcel_id": "726867106421875926",
+    "start_year": 2000,
+    "available": [
+      2022,
+      2020,
+      2018,
+      2016,
+      2014,
+      2012
+    ],
+    "missing": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2021,
+      2019,
+      2017,
+      2015,
+      2013,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000
+    ],
+    "pages": [
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2022.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2020.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2018.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2016.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2014.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2012.png"
+    ],
+    "downloads": [
+      {
+        "year": 2022,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "tx_m_3510059_ne_14_060_20220826",
+        "datetime": "2022-08-26T16:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_tx_m_3510059_ne_14_060_20220826.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2022.png",
+        "status": "success"
+      },
+      {
+        "year": 2020,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "tx_m_3510059_ne_14_060_20200916",
+        "datetime": "2020-09-16T00:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2020_pc_tx_m_3510059_ne_14_060_20200916.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2020.png",
+        "status": "success"
+      },
+      {
+        "year": 2018,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "tx_m_3510059_ne_14_060_20180923_20190223",
+        "datetime": "2018-09-23T00:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2018_pc_tx_m_3510059_ne_14_060_20180923_20190223.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2018.png",
+        "status": "success"
+      },
+      {
+        "year": 2016,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "tx_m_3510059_ne_14_1_20161004",
+        "datetime": "2016-10-04T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2016_pc_tx_m_3510059_ne_14_1_20161004.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2016.png",
+        "status": "success"
+      },
+      {
+        "year": 2014,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "tx_m_3510059_ne_14_1_20141006_20141201",
+        "datetime": "2014-10-06T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2014_pc_tx_m_3510059_ne_14_1_20141006_20141201.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2014.png",
+        "status": "success"
+      },
+      {
+        "year": 2012,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "tx_m_3510059_ne_14_1_20120809",
+        "datetime": "2012-08-09T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2012_pc_tx_m_3510059_ne_14_1_20120809.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2012.png",
+        "status": "success"
+      }
+    ],
+    "combined_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\SITE_PLAN_HISTORICAL_SERIES.pdf"
+  }
+}

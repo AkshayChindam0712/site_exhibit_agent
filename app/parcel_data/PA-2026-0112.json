@@ -1,0 +1,15 @@
+{
+  "project_number": "PA-2026-0112",
+  "site_name": "Platte Valley Rail Spur",
+  "county": "Denver County, CO",
+  "parcel_ids": null,
+  "latitude": 39.7392,
+  "longitude": -104.9903,
+  "boundary_geojson": null,
+  "figures": [
+    "site_location",
+    "site_plan",
+    "historical"
+  ],
+  "output_dir": "./out/PA-2026-0112"
+}

@@ -1,0 +1,243 @@
+{
+  "warning": "Every identifier and polygon below is fabricated.",
+  "sites": {
+    "PA-2026-0101": {
+      "county": "Douglas County, NE",
+      "parcel_ids": [
+        "0387581351",
+        "6816572479"
+      ],
+      "id_pattern": "##########",
+      "total_acres": 2.774,
+      "outline_acres": 2.774,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0102": {
+      "county": "Douglas County, NE",
+      "parcel_ids": [
+        "0417955835"
+      ],
+      "id_pattern": "##########",
+      "total_acres": 1.773,
+      "outline_acres": 1.773,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0103": {
+      "county": "Lancaster County, NE",
+      "parcel_ids": [
+        "1710344206",
+        "9039343425"
+      ],
+      "id_pattern": "##########",
+      "total_acres": 2.774,
+      "outline_acres": 2.774,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0104": {
+      "county": "Johnson County, KS",
+      "parcel_ids": [
+        "84-038-60-0-53-24-894-564"
+      ],
+      "id_pattern": "##-###-##-#-##-##-###-###",
+      "total_acres": 1.773,
+      "outline_acres": 1.773,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0105": {
+      "county": "Maricopa County, AZ",
+      "parcel_ids": [
+        "044-11-119A",
+        "666-00-119A",
+        "210-90-000A"
+      ],
+      "id_pattern": "###-##-###A",
+      "total_acres": 3.547,
+      "outline_acres": 3.546,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0106": {
+      "county": "Cook County, IL",
+      "parcel_ids": [
+        "34-83-355-062-4804",
+        "16-12-144-901-6835"
+      ],
+      "id_pattern": "##-##-###-###-####",
+      "total_acres": 2.774,
+      "outline_acres": 2.774,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0107": {
+      "county": "Harris County, TX",
+      "parcel_ids": [
+        "8843839391910",
+        "4192728229235"
+      ],
+      "id_pattern": "#############",
+      "total_acres": 2.774,
+      "outline_acres": 2.774,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0108": {
+      "county": "Los Angeles County, CA",
+      "parcel_ids": [
+        "7557-504-648"
+      ],
+      "id_pattern": "####-###-###",
+      "total_acres": 1.773,
+      "outline_acres": 1.773,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0109": {
+      "county": "King County, WA",
+      "parcel_ids": [
+        "0100618844",
+        "6649617783"
+      ],
+      "id_pattern": "##########",
+      "total_acres": 2.774,
+      "outline_acres": 2.774,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0110": {
+      "county": "Miami-Dade County, FL",
+      "parcel_ids": [
+        "99-9090-572-8064"
+      ],
+      "id_pattern": "##-####-###-####",
+      "total_acres": 1.773,
+      "outline_acres": 1.773,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0111": {
+      "county": "Suffolk County, NY",
+      "parcel_ids": [
+        "3523-796.87-36.94-205.647",
+        "9752-785.79-28.19-370.086"
+      ],
+      "id_pattern": "####-###.##-##.##-###.###",
+      "total_acres": 2.774,
+      "outline_acres": 2.774,
+      "outline_parts": 2,
+      "traps": [
+        "0.02 m gap from the adjoining lot; union with zero tolerance leaves a sliver"
+      ]
+    },
+    "PA-2026-0112": {
+      "county": "Denver County, CO",
+      "parcel_ids": [
+        "5434735152",
+        "1772725080"
+      ],
+      "id_pattern": "##########",
+      "total_acres": 2.774,
+      "outline_acres": 2.774,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0113": {
+      "county": "Salt Lake County, UT",
+      "parcel_ids": [
+        "61-24-572-279-7223",
+        "25-53-361-317-9475"
+      ],
+      "id_pattern": "##-##-###-###-####",
+      "total_acres": 2.774,
+      "outline_acres": 2.774,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0114": {
+      "county": "Utah County, UT",
+      "parcel_ids": [
+        "45:147:4961"
+      ],
+      "id_pattern": "##:###:####",
+      "total_acres": 1.773,
+      "outline_acres": 1.773,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0115": {
+      "county": "Wake County, NC",
+      "parcel_ids": [
+        "9491706",
+        "5849695",
+        "1368684"
+      ],
+      "id_pattern": "#######",
+      "total_acres": 2.835,
+      "outline_acres": 2.834,
+      "outline_parts": 1,
+      "traps": [
+        "L-shaped assemblage; a bbox dissolve over-claims land"
+      ]
+    },
+    "PA-2026-0116": {
+      "county": "Hennepin County, MN",
+      "parcel_ids": [
+        "68-809-05-21-7496",
+        "22-088-94-15-5691"
+      ],
+      "id_pattern": "##-###-##-##-####",
+      "total_acres": 2.774,
+      "outline_acres": 2.774,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0117": {
+      "county": "Bernalillo County, NM",
+      "parcel_ids": [
+        "726867106421875926"
+      ],
+      "id_pattern": "##################",
+      "total_acres": 1.773,
+      "outline_acres": 1.773,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0118": {
+      "county": "Clark County, NV",
+      "parcel_ids": [
+        "352-60-405-231",
+        "997-40-694-513"
+      ],
+      "id_pattern": "###-##-###-###",
+      "total_acres": 2.774,
+      "outline_acres": 2.774,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0119": {
+      "county": "Fairbanks North Star Borough, AK",
+      "parcel_ids": [
+        "0143526"
+      ],
+      "id_pattern": "#######",
+      "total_acres": 1.773,
+      "outline_acres": 1.773,
+      "outline_parts": 1,
+      "traps": []
+    },
+    "PA-2026-0120": {
+      "county": "Kauai County, HI",
+      "parcel_ids": [
+        "(6) 4-4-309:743"
+      ],
+      "id_pattern": "(#) #-#-###:###",
+      "total_acres": 1.773,
+      "outline_acres": 1.773,
+      "outline_parts": 1,
+      "traps": []
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "site": {
+    "county": "Douglas County, NE",
+    "parcel_id": "0417955835",
+    "projection": "EPSG:32614",
+    "site_outline_source": "coordinates"
+  },
+  "site_plan": {
+    "map_type": "AERIAL",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Douglas_County_NE_Parcel_0417955835.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Douglas_County_NE_Parcel_0417955835.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Douglas_County_NE_Parcel_0417955835.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Douglas_County_NE_Parcel_0417955835.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Douglas_County_NE_Parcel_0417955835.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Douglas_County_NE_Parcel_0417955835.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": 2022,
+      "scale": "1:1,200",
+      "bbox": [
+        731344.8614724891,
+        731576.5094724891,
+        4574063.804308034,
+        4574319.836308033
+      ],
+      "layer_bbox": [
+        731113.8173764974,
+        4573811.490972889,
+        731807.5535684809,
+        4574572.149643179
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_ne_m_4109646_sw_14_060_20220802.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_730363.817376_4573061.490973_732557.553568_4575322.149643.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": true,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "cache",
+    "photo_year": 2022,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      731344.8614724891,
+      731576.5094724891,
+      4574063.804308034,
+      4574319.836308033
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": true,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "site_location": {
+    "map_type": "TOPO",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Douglas_County_NE_Parcel_0417955835.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Douglas_County_NE_Parcel_0417955835.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Douglas_County_NE_Parcel_0417955835.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Douglas_County_NE_Parcel_0417955835.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Douglas_County_NE_Parcel_0417955835.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Douglas_County_NE_Parcel_0417955835.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": null,
+      "scale": "1:1,200",
+      "bbox": [
+        731344.8614724891,
+        731576.5094724891,
+        4574063.804308034,
+        4574319.836308033
+      ],
+      "layer_bbox": [
+        731113.8173764974,
+        4573811.490972889,
+        731807.5535684809,
+        4574572.149643179
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_ne_m_4109646_sw_14_060_20220802.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_730363.817376_4573061.490973_732557.553568_4575322.149643.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": false,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "USGS Topo",
+    "photo_year": null,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      731344.8614724891,
+      731576.5094724891,
+      4574063.804308034,
+      4574319.836308033
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": false,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "historical": {
+    "created_at": "2026-09-10T14:06:28.255375Z",
+    "county": "Douglas County, NE",
+    "parcel_id": "0417955835",
+    "start_year": 2000,
+    "available": [
+      2022,
+      2020,
+      2018,
+      2016,
+      2014,
+      2012
+    ],
+    "missing": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2021,
+      2019,
+      2017,
+      2015,
+      2013,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000
+    ],
+    "pages": [
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2022.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2020.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2018.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2016.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2014.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2012.png"
+    ],
+    "downloads": [
+      {
+        "year": 2022,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4109647_sw_14_060_20220802",
+        "datetime": "2022-08-02T16:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_ne_m_4109647_sw_14_060_20220802.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2022.png",
+        "status": "success"
+      },
+      {
+        "year": 2020,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4109647_sw_14_060_20200815",
+        "datetime": "2020-08-15T00:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2020_pc_ne_m_4109647_sw_14_060_20200815.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2020.png",
+        "status": "success"
+      },
+      {
+        "year": 2018,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4109647_sw_14_060_20180711_20181210",
+        "datetime": "2018-07-11T00:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2018_pc_ne_m_4109647_sw_14_060_20180711_20181210.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2018.png",
+        "status": "success"
+      },
+      {
+        "year": 2016,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4109647_sw_14_.6_20160720_20161019",
+        "datetime": "2016-07-20T00:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2016_pc_ne_m_4109647_sw_14_.6_20160720_20161019.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2016.png",
+        "status": "success"
+      },
+      {
+        "year": 2014,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4109647_sw_14_1_20140916_20141028",
+        "datetime": "2014-09-16T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2014_pc_ne_m_4109647_sw_14_1_20140916_20141028.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2014.png",
+        "status": "success"
+      },
+      {
+        "year": 2012,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4109647_sw_14_1_20120626_20120815",
+        "datetime": "2012-06-26T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2012_pc_ne_m_4109647_sw_14_1_20120626_20120815.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2012.png",
+        "status": "success"
+      }
+    ],
+    "combined_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\SITE_PLAN_HISTORICAL_SERIES.pdf"
+  }
+}

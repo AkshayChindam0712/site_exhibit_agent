@@ -1,0 +1,252 @@
+{
+  "site": {
+    "county": "Salt Lake County, UT",
+    "parcel_id": "61-24-572-279-7223",
+    "projection": "EPSG:32612",
+    "site_outline_source": "coordinates"
+  },
+  "site_plan": {
+    "map_type": "AERIAL",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": 2022,
+      "scale": "1:1,200",
+      "bbox": [
+        424650.1071942458,
+        424881.75519424584,
+        4512455.206818863,
+        4512711.2388188625
+      ],
+      "layer_bbox": [
+        424512.2451792162,
+        4512242.467854936,
+        425019.6172092754,
+        4512923.977782789
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_423762.245179_4511492.467855_425769.617209_4513673.977783.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": true,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "cache",
+    "photo_year": 2022,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      424650.1071942458,
+      424881.75519424584,
+      4512455.206818863,
+      4512711.2388188625
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": true,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "site_location": {
+    "map_type": "TOPO",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Salt_Lake_County_UT_Parcel_61-24-572-279-7223.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": null,
+      "scale": "1:1,200",
+      "bbox": [
+        424650.1071942458,
+        424881.75519424584,
+        4512455.206818863,
+        4512711.2388188625
+      ],
+      "layer_bbox": [
+        424512.2451792162,
+        4512242.467854936,
+        425019.6172092754,
+        4512923.977782789
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_423762.245179_4511492.467855_425769.617209_4513673.977783.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": false,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "USGS Topo",
+    "photo_year": null,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      424650.1071942458,
+      424881.75519424584,
+      4512455.206818863,
+      4512711.2388188625
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": false,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "historical": {
+    "created_at": "2026-09-10T14:19:29.527495Z",
+    "county": "Salt Lake County, UT",
+    "parcel_id": "61-24-572-279-7223",
+    "start_year": 2000,
+    "available": [
+      2022,
+      2020,
+      2018,
+      2016,
+      2014,
+      2012
+    ],
+    "missing": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2021,
+      2019,
+      2017,
+      2015,
+      2013,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000
+    ],
+    "pages": [
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2022.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2020.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2018.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2016.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2014.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2012.png"
+    ],
+    "downloads": [
+      {
+        "year": 2022,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4009909_se_14_060_20220718",
+        "datetime": "2022-07-18T16:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_ne_m_4009909_se_14_060_20220718.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2022.png",
+        "status": "success"
+      },
+      {
+        "year": 2020,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4009909_se_14_060_20200806",
+        "datetime": "2020-08-06T00:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2020_pc_ne_m_4009909_se_14_060_20200806.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2020.png",
+        "status": "success"
+      },
+      {
+        "year": 2018,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4009909_se_14_060_20180827_20181210",
+        "datetime": "2018-08-27T00:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2018_pc_ne_m_4009909_se_14_060_20180827_20181210.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2018.png",
+        "status": "success"
+      },
+      {
+        "year": 2016,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4009909_se_14_.6_20160816_20161019",
+        "datetime": "2016-08-16T00:00:00+00:00",
+        "gsd": 0.5999999999999964,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2016_pc_ne_m_4009909_se_14_.6_20160816_20161019.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2016.png",
+        "status": "success"
+      },
+      {
+        "year": 2014,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4009909_se_14_1_20140724_20141028",
+        "datetime": "2014-07-24T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2014_pc_ne_m_4009909_se_14_1_20140724_20141028.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2014.png",
+        "status": "success"
+      },
+      {
+        "year": 2012,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ne_m_4009909_se_14_1_20120714_20120815",
+        "datetime": "2012-07-14T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2012_pc_ne_m_4009909_se_14_1_20120714_20120815.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2012.png",
+        "status": "success"
+      }
+    ],
+    "combined_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\SITE_PLAN_HISTORICAL_SERIES.pdf"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "name": "PA-2026-0110 synthetic parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "synthetic": true,
+    "purpose": "offline pipeline fixture",
+    "warning": "Fabricated geometry and identifiers. Not a cadastral record. Do not publish a figure drawn from these.",
+    "input_mode": "latlong",
+    "expected_parcels": 1,
+    "expected_total_acres": 1.773,
+    "expected_outline_acres": 1.773,
+    "expected_outline_parts": 1,
+    "expected_outline_vertices": 4
+  },
+  "site_outline": {
+    "type": "Feature",
+    "properties": {
+      "project_number": "PA-2026-0110",
+      "synthetic": true,
+      "derivation": "analytic union of the parcel rectangles",
+      "area_acres": 1.773,
+      "parts": 1,
+      "note": "Compare your dissolve against this. A bounding-box fallback will not reproduce it where the assemblage is L-shaped."
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -80.1923004,
+            25.7613994
+          ],
+          [
+            -80.1915525,
+            25.7612062
+          ],
+          [
+            -80.1912996,
+            25.7620006
+          ],
+          [
+            -80.1920475,
+            25.7621938
+          ],
+          [
+            -80.1923004,
+            25.7613994
+          ]
+        ]
+      ]
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "99-9090-572-8064",
+        "county": "Miami-Dade County, FL",
+        "site_name": "Miami River Warehouse Site",
+        "project_number": "PA-2026-0110",
+        "area_acres": 1.773,
+        "synthetic": true,
+        "id_pattern": "##-####-###-####",
+        "id_pattern_note": "13-digit folio, dashed",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.1923004,
+              25.7613994
+            ],
+            [
+              -80.1915525,
+              25.7612062
+            ],
+            [
+              -80.1912996,
+              25.7620006
+            ],
+            [
+              -80.1920475,
+              25.7621938
+            ],
+            [
+              -80.1923004,
+              25.7613994
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

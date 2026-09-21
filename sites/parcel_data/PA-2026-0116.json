@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "name": "PA-2026-0116 synthetic parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "synthetic": true,
+    "purpose": "offline pipeline fixture",
+    "warning": "Fabricated geometry and identifiers. Not a cadastral record. Do not publish a figure drawn from these.",
+    "input_mode": "parcel_ids",
+    "expected_parcels": 2,
+    "expected_total_acres": 2.774,
+    "expected_outline_acres": 2.774,
+    "expected_outline_parts": 1,
+    "expected_outline_vertices": 4
+  },
+  "site_outline": {
+    "type": "Feature",
+    "properties": {
+      "project_number": "PA-2026-0116",
+      "synthetic": true,
+      "derivation": "analytic union of the parcel rectangles",
+      "area_acres": 2.774,
+      "parts": 1,
+      "note": "Compare your dissolve against this. A bounding-box fallback will not reproduce it where the assemblage is L-shaped."
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -93.2658042,
+            44.977416
+          ],
+          [
+            -93.264257,
+            44.9773587
+          ],
+          [
+            -93.2641958,
+            44.978184
+          ],
+          [
+            -93.265743,
+            44.9782413
+          ],
+          [
+            -93.2658042,
+            44.977416
+          ]
+        ]
+      ]
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "68-809-05-21-7496",
+        "county": "Hennepin County, MN",
+        "site_name": "Bassett Creek Industrial",
+        "project_number": "PA-2026-0116",
+        "area_acres": 1.455,
+        "synthetic": true,
+        "id_pattern": "##-###-##-##-####",
+        "id_pattern_note": "13 digits, dashed",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.2658042,
+              44.977416
+            ],
+            [
+              -93.2649925,
+              44.9773859
+            ],
+            [
+              -93.2649314,
+              44.9782112
+            ],
+            [
+              -93.265743,
+              44.9782413
+            ],
+            [
+              -93.2658042,
+              44.977416
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "22-088-94-15-5691",
+        "county": "Hennepin County, MN",
+        "site_name": "Bassett Creek Industrial",
+        "project_number": "PA-2026-0116",
+        "area_acres": 1.319,
+        "synthetic": true,
+        "id_pattern": "##-###-##-##-####",
+        "id_pattern_note": "13 digits, dashed",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.2649925,
+              44.9773859
+            ],
+            [
+              -93.264257,
+              44.9773587
+            ],
+            [
+              -93.2641958,
+              44.978184
+            ],
+            [
+              -93.2649314,
+              44.9782112
+            ],
+            [
+              -93.2649925,
+              44.9773859
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

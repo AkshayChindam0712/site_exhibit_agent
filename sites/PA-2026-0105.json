@@ -1,0 +1,15 @@
+{
+  "project_number": "PA-2026-0105",
+  "site_name": "Salt River Industrial Block",
+  "county": "Maricopa County, AZ",
+  "parcel_ids": null,
+  "latitude": 33.4484,
+  "longitude": -112.074,
+  "boundary_geojson": null,
+  "figures": [
+    "site_location",
+    "site_plan",
+    "historical"
+  ],
+  "output_dir": "./out/PA-2026-0105"
+}

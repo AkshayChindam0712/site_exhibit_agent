@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "name": "PA-2026-0104 synthetic parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "synthetic": true,
+    "purpose": "offline pipeline fixture",
+    "warning": "Fabricated geometry and identifiers. Not a cadastral record. Do not publish a figure drawn from these.",
+    "input_mode": "parcel_ids",
+    "expected_parcels": 1,
+    "expected_total_acres": 1.773,
+    "expected_outline_acres": 1.773,
+    "expected_outline_parts": 1,
+    "expected_outline_vertices": 4
+  },
+  "site_outline": {
+    "type": "Feature",
+    "properties": {
+      "project_number": "PA-2026-0104",
+      "synthetic": true,
+      "derivation": "analytic union of the parcel rectangles",
+      "area_acres": 1.773,
+      "parts": 1,
+      "note": "Compare your dissolve against this. A bounding-box fallback will not reproduce it where the assemblage is L-shaped."
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -94.6711303,
+            38.981723
+          ],
+          [
+            -94.6702486,
+            38.9818686
+          ],
+          [
+            -94.6704697,
+            38.982677
+          ],
+          [
+            -94.6713514,
+            38.9825314
+          ],
+          [
+            -94.6711303,
+            38.981723
+          ]
+        ]
+      ]
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "84-038-60-0-53-24-894-564",
+        "county": "Johnson County, KS",
+        "site_name": "College Boulevard Office Tract",
+        "project_number": "PA-2026-0104",
+        "area_acres": 1.773,
+        "synthetic": true,
+        "id_pattern": "##-###-##-#-##-##-###-###",
+        "id_pattern_note": "long dashed quarter-section",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.6711303,
+              38.981723
+            ],
+            [
+              -94.6702486,
+              38.9818686
+            ],
+            [
+              -94.6704697,
+              38.982677
+            ],
+            [
+              -94.6713514,
+              38.9825314
+            ],
+            [
+              -94.6711303,
+              38.981723
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

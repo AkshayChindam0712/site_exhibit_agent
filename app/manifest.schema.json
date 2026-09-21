@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Site Exhibit Manifest",
+  "type": "object",
+  "required": [
+    "site_plan",
+    "site_location"
+  ],
+  "properties": {
+    "site_plan": {
+      "type": "object"
+    },
+    "site_location": {
+      "type": "object"
+    },
+    "historical_aerial": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "site-exhibit-agent"
+version = "1.0.0"
+description = "Site exhibit generation and validation pipeline"
+requires-python = ">=3.10"
+
+[project.scripts]
+
+exhibits = "app.cli:main"
+[tool.setuptools.packages.find]
+include = ["app*"]
+exclude = [
+    "cache*",
+    "output*",
+    "sites*",
+    "pack*",
+    "venv311*"
+]

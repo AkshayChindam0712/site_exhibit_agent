@@ -1,0 +1,183 @@
+{
+  "site": {
+    "county": "Miami-Dade County, FL",
+    "parcel_id": "99-9090-572-8064",
+    "projection": "EPSG:32617",
+    "site_outline_source": "coordinates"
+  },
+  "site_plan": {
+    "map_type": "AERIAL",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Miami-Dade_County_FL_Parcel_99-9090-572-8064.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Miami-Dade_County_FL_Parcel_99-9090-572-8064.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Miami-Dade_County_FL_Parcel_99-9090-572-8064.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Miami-Dade_County_FL_Parcel_99-9090-572-8064.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Miami-Dade_County_FL_Parcel_99-9090-572-8064.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Miami-Dade_County_FL_Parcel_99-9090-572-8064.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": 2022,
+      "scale": "1:1,200",
+      "bbox": [
+        580931.1174360912,
+        581162.7654360912,
+        2849414.4893977847,
+        2849670.5213977844
+      ],
+      "layer_bbox": [
+        580697.0920278789,
+        2849160.7627664595,
+        581396.7908443034,
+        2849924.248029109
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_579947.092028_2848410.762766_582146.790844_2850674.248029.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": true,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "cache",
+    "photo_year": 2022,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      580931.1174360912,
+      581162.7654360912,
+      2849414.4893977847,
+      2849670.5213977844
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": true,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "site_location": {
+    "map_type": "TOPO",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Miami-Dade_County_FL_Parcel_99-9090-572-8064.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Miami-Dade_County_FL_Parcel_99-9090-572-8064.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Miami-Dade_County_FL_Parcel_99-9090-572-8064.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Miami-Dade_County_FL_Parcel_99-9090-572-8064.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Miami-Dade_County_FL_Parcel_99-9090-572-8064.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Miami-Dade_County_FL_Parcel_99-9090-572-8064.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": null,
+      "scale": "1:1,200",
+      "bbox": [
+        580931.1174360912,
+        581162.7654360912,
+        2849414.4893977847,
+        2849670.5213977844
+      ],
+      "layer_bbox": [
+        580697.0920278789,
+        2849160.7627664595,
+        581396.7908443034,
+        2849924.248029109
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_579947.092028_2848410.762766_582146.790844_2850674.248029.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": false,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "USGS Topo",
+    "photo_year": null,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      580931.1174360912,
+      581162.7654360912,
+      2849414.4893977847,
+      2849670.5213977844
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": false,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "historical": {
+    "created_at": "2026-09-10T14:16:04.170820Z",
+    "county": "Miami-Dade County, FL",
+    "parcel_id": "99-9090-572-8064",
+    "start_year": 2000,
+    "available": [],
+    "missing": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000
+    ],
+    "pages": [],
+    "downloads": [],
+    "combined_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\SITE_PLAN_HISTORICAL_SERIES.pdf"
+  }
+}

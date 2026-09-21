@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "name": "PA-2026-0120 synthetic parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "synthetic": true,
+    "purpose": "offline pipeline fixture",
+    "warning": "Fabricated geometry and identifiers. Not a cadastral record. Do not publish a figure drawn from these.",
+    "input_mode": "latlong",
+    "expected_parcels": 1,
+    "expected_total_acres": 1.773,
+    "expected_outline_acres": 1.773,
+    "expected_outline_parts": 1,
+    "expected_outline_vertices": 4
+  },
+  "site_outline": {
+    "type": "Feature",
+    "properties": {
+      "project_number": "PA-2026-0120",
+      "synthetic": true,
+      "derivation": "analytic union of the parcel rectangles",
+      "area_acres": 1.773,
+      "parts": 1,
+      "note": "Compare your dissolve against this. A bounding-box fallback will not reproduce it where the assemblage is L-shaped."
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -159.3715559,
+            21.9807612
+          ],
+          [
+            -159.3708142,
+            21.9806275
+          ],
+          [
+            -159.3706441,
+            21.9814388
+          ],
+          [
+            -159.3713858,
+            21.9815725
+          ],
+          [
+            -159.3715559,
+            21.9807612
+          ]
+        ]
+      ]
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "(6) 4-4-309:743",
+        "county": "Kauai County, HI",
+        "site_name": "Nawiliwili Harbor Parcel",
+        "project_number": "PA-2026-0120",
+        "area_acres": 1.773,
+        "synthetic": true,
+        "id_pattern": "(#) #-#-###:###",
+        "id_pattern_note": "TMK with zone prefix",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -159.3715559,
+              21.9807612
+            ],
+            [
+              -159.3708142,
+              21.9806275
+            ],
+            [
+              -159.3706441,
+              21.9814388
+            ],
+            [
+              -159.3713858,
+              21.9815725
+            ],
+            [
+              -159.3715559,
+              21.9807612
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

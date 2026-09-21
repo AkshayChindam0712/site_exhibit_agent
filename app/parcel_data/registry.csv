@@ -1,0 +1,21 @@
+project_number,site_name,county,input_mode,parcels_expected,seed_latitude,seed_longitude,figures,what_it_tests
+PA-2026-0101,Dodge Street Commercial Pad,"Douglas County, NE",parcel_ids,2,41.2565,-95.9345,"site_location,site_plan,historical",Worked example from the brief. Two adjacent parcels dissolve to one outline.
+PA-2026-0102,Elkhorn Draw Acreage,"Douglas County, NE",latlong,1,41.286,-96.236,"site_location,site_plan,historical",Coordinates only. Exercises point-in-parcel lookup (Task 1 step 5).
+PA-2026-0103,Salt Creek Rail Frontage,"Lancaster County, NE",parcel_ids,2,40.8136,-96.7026,"site_location,site_plan,historical",Second county. Proves the resolver is not hard-coded to Douglas.
+PA-2026-0104,College Boulevard Office Tract,"Johnson County, KS",parcel_ids,1,38.9822,-94.6708,"site_location,site_plan,historical","Third county, satisfying the 'at least three counties' bar."
+PA-2026-0105,Salt River Industrial Block,"Maricopa County, AZ",parcel_ids,3,33.4484,-112.074,"site_location,site_plan,historical",Very large parcel layer. Forces correct paging past maxRecordCount.
+PA-2026-0106,South Branch Yard,"Cook County, IL",parcel_ids,2,41.8781,-87.6298,"site_location,site_plan,historical",14-digit PIN written with dashes. ID cleaning must strip them.
+PA-2026-0107,Buffalo Bayou Terminal,"Harris County, TX",parcel_ids,2,29.7604,-95.3698,"site_location,site_plan,historical",Account numbers carry leading zeros that must survive cleaning.
+PA-2026-0108,Alameda Corridor Parcel,"Los Angeles County, CA",parcel_ids,1,34.0522,-118.2437,"site_location,site_plan,historical",APN with dashes. UTM zone 11N.
+PA-2026-0109,Duwamish Bend Lot,"King County, WA",parcel_ids,2,47.6062,-122.3321,"site_location,site_plan,historical",UTM zone 10N. Frequent NAIP coverage.
+PA-2026-0110,Miami River Warehouse Site,"Miami-Dade County, FL",latlong,1,25.7617,-80.1918,"site_location,site_plan,historical","UTM zone 17N. Dense imagery, subtropical canopy."
+PA-2026-0111,Peconic Shoreline Tract,"Suffolk County, NY",parcel_ids,2,40.917,-72.662,"site_location,site_plan,historical","Coastal. Page extends over open water, so UNMAPPED fill (step 22) fires. Fixture also carries a 0.02 m gap between lots to test dissolve tolerance."
+PA-2026-0112,Platte Valley Rail Spur,"Denver County, CO",parcel_ids,2,39.7392,-104.9903,"site_location,site_plan,historical",City-county with real relief. Topo contours must stay legible under the outline.
+PA-2026-0113,Jordan River Frontage,"Salt Lake County, UT",parcel_ids,2,40.7608,-111.891,"site_location,site_plan,historical",UTM zone 12N.
+PA-2026-0114,Spanish Fork Parkway Pad,"Utah County, UT",boundary,0,40.115,-111.6549,site_plan,"Boundary file only, Site Plan only. The third request style in Task 9 step 41."
+PA-2026-0115,Crabtree Creek Assemblage,"Wake County, NC",parcel_ids,3,35.7796,-78.6382,"site_location,site_plan,historical",Three adjacent parcels. Checks the dissolve leaves no internal slivers.
+PA-2026-0116,Bassett Creek Industrial,"Hennepin County, MN",parcel_ids,2,44.9778,-93.265,"site_location,site_plan,historical",Northern latitude with irregular NAIP years. list_years must not assume a cadence.
+PA-2026-0117,Rio Grande Bosque Parcel,"Bernalillo County, NM",parcel_ids,1,35.0844,-106.6504,"site_location,site_plan,historical","Arid, low-contrast imagery. Good probe for the vision model returning 'unclear'."
+PA-2026-0118,Las Vegas Wash Frontage,"Clark County, NV",parcel_ids,2,36.1699,-115.1398,"site_location,site_plan,historical",Extreme land-use change across the historical series.
+PA-2026-0119,Chena Flats Tract,"Fairbanks North Star Borough, AK",parcel_ids,1,64.8378,-147.7164,"site_location,site_plan,historical","NAIP does not cover Alaska. Must degrade cleanly, not crash, and log missing years."
+PA-2026-0120,Nawiliwili Harbor Parcel,"Kauai County, HI",latlong,1,21.9811,-159.3711,"site_location,site_plan,historical",UTM zone 4N and sparse imagery. Catches hard-coded CONUS assumptions.

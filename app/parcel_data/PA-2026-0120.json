@@ -1,0 +1,15 @@
+{
+  "project_number": "PA-2026-0120",
+  "site_name": "Nawiliwili Harbor Parcel",
+  "county": "Kauai County, HI",
+  "parcel_ids": null,
+  "latitude": 21.9811,
+  "longitude": -159.3711,
+  "boundary_geojson": null,
+  "figures": [
+    "site_location",
+    "site_plan",
+    "historical"
+  ],
+  "output_dir": "./out/PA-2026-0120"
+}

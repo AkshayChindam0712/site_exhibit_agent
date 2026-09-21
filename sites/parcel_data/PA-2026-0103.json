@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "name": "PA-2026-0103 synthetic parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "synthetic": true,
+    "purpose": "offline pipeline fixture",
+    "warning": "Fabricated geometry and identifiers. Not a cadastral record. Do not publish a figure drawn from these.",
+    "input_mode": "parcel_ids",
+    "expected_parcels": 2,
+    "expected_total_acres": 2.774,
+    "expected_outline_acres": 2.774,
+    "expected_outline_parts": 1,
+    "expected_outline_vertices": 4
+  },
+  "site_outline": {
+    "type": "Feature",
+    "properties": {
+      "project_number": "PA-2026-0103",
+      "synthetic": true,
+      "derivation": "analytic union of the parcel rectangles",
+      "area_acres": 2.774,
+      "parts": 1,
+      "note": "Compare your dissolve against this. A bounding-box fallback will not reproduce it where the assemblage is L-shaped."
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -96.7034149,
+            40.8132989
+          ],
+          [
+            -96.7019935,
+            40.8130898
+          ],
+          [
+            -96.7017851,
+            40.8139011
+          ],
+          [
+            -96.7032065,
+            40.8141102
+          ],
+          [
+            -96.7034149,
+            40.8132989
+          ]
+        ]
+      ]
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "1710344206",
+        "county": "Lancaster County, NE",
+        "site_name": "Salt Creek Rail Frontage",
+        "project_number": "PA-2026-0103",
+        "area_acres": 1.455,
+        "synthetic": true,
+        "id_pattern": "##########",
+        "id_pattern_note": "digits only, 10",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -96.7034149,
+              40.8132989
+            ],
+            [
+              -96.7026692,
+              40.8131892
+            ],
+            [
+              -96.7024609,
+              40.8140005
+            ],
+            [
+              -96.7032065,
+              40.8141102
+            ],
+            [
+              -96.7034149,
+              40.8132989
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "9039343425",
+        "county": "Lancaster County, NE",
+        "site_name": "Salt Creek Rail Frontage",
+        "project_number": "PA-2026-0103",
+        "area_acres": 1.319,
+        "synthetic": true,
+        "id_pattern": "##########",
+        "id_pattern_note": "digits only, 10",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -96.7026692,
+              40.8131892
+            ],
+            [
+              -96.7019935,
+              40.8130898
+            ],
+            [
+              -96.7017851,
+              40.8139011
+            ],
+            [
+              -96.7024609,
+              40.8140005
+            ],
+            [
+              -96.7026692,
+              40.8131892
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

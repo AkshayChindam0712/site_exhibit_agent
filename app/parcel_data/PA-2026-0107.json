@@ -1,0 +1,15 @@
+{
+  "project_number": "PA-2026-0107",
+  "site_name": "Buffalo Bayou Terminal",
+  "county": "Harris County, TX",
+  "parcel_ids": null,
+  "latitude": 29.7604,
+  "longitude": -95.3698,
+  "boundary_geojson": null,
+  "figures": [
+    "site_location",
+    "site_plan",
+    "historical"
+  ],
+  "output_dir": "./out/PA-2026-0107"
+}

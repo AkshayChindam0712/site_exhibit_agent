@@ -1,0 +1,15 @@
+{
+  "project_number": "PA-2026-0108",
+  "site_name": "Alameda Corridor Parcel",
+  "county": "Los Angeles County, CA",
+  "parcel_ids": null,
+  "latitude": 34.0522,
+  "longitude": -118.2437,
+  "boundary_geojson": null,
+  "figures": [
+    "site_location",
+    "site_plan",
+    "historical"
+  ],
+  "output_dir": "./out/PA-2026-0108"
+}

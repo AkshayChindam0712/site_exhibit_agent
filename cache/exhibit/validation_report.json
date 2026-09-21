@@ -1,0 +1,63 @@
+{
+  "valid": false,
+  "output_dir": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\exhibit",
+  "checks": [
+    {
+      "check": "manifest",
+      "status": "FAIL",
+      "message": "manifest.json was not found.",
+      "details": {}
+    },
+    {
+      "check": "manifest JSON schema",
+      "status": "FAIL",
+      "message": "manifest.json does not conform to schema.",
+      "details": {
+        "errors": [
+          "<root>: 'site_plan' is a required property",
+          "<root>: 'site_location' is a required property"
+        ]
+      }
+    },
+    {
+      "check": "generated maps",
+      "status": "FAIL",
+      "message": "No generated map output files were found in the manifest.",
+      "details": {
+        "found": [],
+        "missing": [],
+        "entries_found": 0
+      }
+    },
+    {
+      "check": "site outline contains input coordinates",
+      "status": "PASS",
+      "message": "SKIPPED: no input coordinates were provided.",
+      "details": {
+        "skipped": true
+      }
+    },
+    {
+      "check": "scale bar",
+      "status": "FAIL",
+      "message": "site_plan metadata was not found.",
+      "details": {}
+    },
+    {
+      "check": "render checklist",
+      "status": "PASS",
+      "message": "Every required checklist element was recorded by render.",
+      "details": {
+        "maps": {}
+      }
+    },
+    {
+      "check": "synthetic parcel rejection",
+      "status": "PASS",
+      "message": "No synthetic/fabricated parcel marker was found.",
+      "details": {
+        "locations": []
+      }
+    }
+  ]
+}

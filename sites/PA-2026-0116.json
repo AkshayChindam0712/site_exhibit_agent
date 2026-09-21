@@ -1,0 +1,15 @@
+{
+  "project_number": "PA-2026-0116",
+  "site_name": "Bassett Creek Industrial",
+  "county": "Hennepin County, MN",
+  "parcel_ids": null,
+  "latitude": 44.9778,
+  "longitude": -93.265,
+  "boundary_geojson": null,
+  "figures": [
+    "site_location",
+    "site_plan",
+    "historical"
+  ],
+  "output_dir": "./out/PA-2026-0116"
+}

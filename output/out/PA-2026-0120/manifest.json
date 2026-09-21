@@ -1,0 +1,183 @@
+{
+  "site": {
+    "county": "Kauai County, HI",
+    "parcel_id": "(6)4-4-309:743",
+    "projection": "EPSG:32604",
+    "site_outline_source": "coordinates"
+  },
+  "site_plan": {
+    "map_type": "AERIAL",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Kauai_County_HI_Parcel_64-4-309743.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Kauai_County_HI_Parcel_64-4-309743.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Kauai_County_HI_Parcel_64-4-309743.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Kauai_County_HI_Parcel_64-4-309743.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Kauai_County_HI_Parcel_64-4-309743.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Kauai_County_HI_Parcel_64-4-309743.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": 2022,
+      "scale": "1:1,200",
+      "bbox": [
+        461573.6527014037,
+        461805.30070140376,
+        2430653.4178231824,
+        2430909.449823182
+      ],
+      "layer_bbox": [
+        461359.38297377195,
+        2430414.834507848,
+        462019.5704290356,
+        2431148.033138517
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_460609.382974_2429664.834508_462769.570429_2431898.033139.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": true,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "cache",
+    "photo_year": 2022,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      461573.6527014037,
+      461805.30070140376,
+      2430653.4178231824,
+      2430909.449823182
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": true,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "site_location": {
+    "map_type": "TOPO",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Kauai_County_HI_Parcel_64-4-309743.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Kauai_County_HI_Parcel_64-4-309743.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Kauai_County_HI_Parcel_64-4-309743.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Kauai_County_HI_Parcel_64-4-309743.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Kauai_County_HI_Parcel_64-4-309743.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Kauai_County_HI_Parcel_64-4-309743.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": null,
+      "scale": "1:1,200",
+      "bbox": [
+        461573.6527014037,
+        461805.30070140376,
+        2430653.4178231824,
+        2430909.449823182
+      ],
+      "layer_bbox": [
+        461359.38297377195,
+        2430414.834507848,
+        462019.5704290356,
+        2431148.033138517
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_460609.382974_2429664.834508_462769.570429_2431898.033139.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": false,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "USGS Topo",
+    "photo_year": null,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      461573.6527014037,
+      461805.30070140376,
+      2430653.4178231824,
+      2430909.449823182
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": false,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "historical": {
+    "created_at": "2026-09-10T14:26:18.533235Z",
+    "county": "Kauai County, HI",
+    "parcel_id": "(6)4-4-309:743",
+    "start_year": 2000,
+    "available": [],
+    "missing": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000
+    ],
+    "pages": [],
+    "downloads": [],
+    "combined_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\SITE_PLAN_HISTORICAL_SERIES.pdf"
+  }
+}

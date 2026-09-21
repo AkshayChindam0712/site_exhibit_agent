@@ -1,0 +1,263 @@
+{
+  "site": {
+    "county": "Denver County, CO",
+    "parcel_id": "5434735152",
+    "projection": "EPSG:32613",
+    "site_outline_source": "coordinates"
+  },
+  "site_plan": {
+    "map_type": "AERIAL",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Denver_County_CO_Parcel_5434735152.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Denver_County_CO_Parcel_5434735152.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Denver_County_CO_Parcel_5434735152.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Denver_County_CO_Parcel_5434735152.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Denver_County_CO_Parcel_5434735152.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Denver_County_CO_Parcel_5434735152.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": 2022,
+      "scale": "1:1,200",
+      "bbox": [
+        500686.34499745816,
+        500917.9929974582,
+        4398685.66294526,
+        4398941.69494526
+      ],
+      "layer_bbox": [
+        500556.04918002593,
+        4398477.886451799,
+        501048.2888148905,
+        4399149.471438722
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_499806.049180_4397727.886452_501798.288815_4399899.471439.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": true,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "cache",
+    "photo_year": 2022,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      500686.34499745816,
+      500917.9929974582,
+      4398685.66294526,
+      4398941.69494526
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": true,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "site_location": {
+    "map_type": "TOPO",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Denver_County_CO_Parcel_5434735152.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Denver_County_CO_Parcel_5434735152.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Denver_County_CO_Parcel_5434735152.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Denver_County_CO_Parcel_5434735152.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Denver_County_CO_Parcel_5434735152.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Denver_County_CO_Parcel_5434735152.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": null,
+      "scale": "1:1,200",
+      "bbox": [
+        500686.34499745816,
+        500917.9929974582,
+        4398685.66294526,
+        4398941.69494526
+      ],
+      "layer_bbox": [
+        500556.04918002593,
+        4398477.886451799,
+        501048.2888148905,
+        4399149.471438722
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_499806.049180_4397727.886452_501798.288815_4399899.471439.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": false,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "USGS Topo",
+    "photo_year": null,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      500686.34499745816,
+      500917.9929974582,
+      4398685.66294526,
+      4398941.69494526
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": false,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "historical": {
+    "created_at": "2026-09-10T14:18:24.338530Z",
+    "county": "Denver County, CO",
+    "parcel_id": "5434735152",
+    "start_year": 2000,
+    "available": [
+      2023,
+      2021,
+      2019,
+      2017,
+      2015,
+      2014,
+      2012
+    ],
+    "missing": [
+      2026,
+      2025,
+      2024,
+      2022,
+      2020,
+      2018,
+      2016,
+      2013,
+      2011,
+      2010,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000
+    ],
+    "pages": [
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2023.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2021.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2019.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2017.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2015.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2014.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2012.png"
+    ],
+    "downloads": [
+      {
+        "year": 2023,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ks_m_3909817_nw_14_030_20230818_20231113",
+        "datetime": "2023-08-18T16:00:00+00:00",
+        "gsd": 0.3,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2023_pc_ks_m_3909817_nw_14_030_20230818_20231113.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2023.png",
+        "status": "success"
+      },
+      {
+        "year": 2021,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ks_m_3909817_nw_14_060_20210727",
+        "datetime": "2021-07-27T16:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2021_pc_ks_m_3909817_nw_14_060_20210727.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2021.png",
+        "status": "success"
+      },
+      {
+        "year": 2019,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ks_m_3909817_nw_14_060_20190713_20191001",
+        "datetime": "2019-07-13T00:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2019_pc_ks_m_3909817_nw_14_060_20190713_20191001.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2019.png",
+        "status": "success"
+      },
+      {
+        "year": 2017,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ks_m_3909817_nw_14_1_20170823_20170921",
+        "datetime": "2017-08-23T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2017_pc_ks_m_3909817_nw_14_1_20170823_20170921.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2017.png",
+        "status": "success"
+      },
+      {
+        "year": 2015,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ks_m_3909817_nw_14_1_20150917_20151103",
+        "datetime": "2015-09-17T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2015_pc_ks_m_3909817_nw_14_1_20150917_20151103.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2015.png",
+        "status": "success"
+      },
+      {
+        "year": 2014,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ks_m_3909817_nw_14_1_20140724_20141006",
+        "datetime": "2014-07-24T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2014_pc_ks_m_3909817_nw_14_1_20140724_20141006.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2014.png",
+        "status": "success"
+      },
+      {
+        "year": 2012,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ks_m_3909817_nw_14_1_20120617_20120724",
+        "datetime": "2012-06-17T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2012_pc_ks_m_3909817_nw_14_1_20120617_20120724.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2012.png",
+        "status": "success"
+      }
+    ],
+    "combined_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\SITE_PLAN_HISTORICAL_SERIES.pdf"
+  }
+}

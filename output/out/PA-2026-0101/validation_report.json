@@ -1,0 +1,110 @@
+{
+  "valid": true,
+  "output_dir": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\out\\PA-2026-0101",
+  "checks": [
+    {
+      "check": "manifest",
+      "status": "PASS",
+      "message": "manifest.json was read successfully.",
+      "details": {
+        "path": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\out\\PA-2026-0101\\manifest.json"
+      }
+    },
+    {
+      "check": "manifest JSON schema",
+      "status": "PASS",
+      "message": "manifest.json conforms to manifest.schema.json.",
+      "details": {
+        "schema": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\app\\manifest.schema.json"
+      }
+    },
+    {
+      "check": "generated maps",
+      "status": "PASS",
+      "message": "All referenced generated map files exist.",
+      "details": {
+        "found": [
+          "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Douglas_County_NE_Parcel_0387581351.png",
+          "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Douglas_County_NE_Parcel_0387581351.pdf",
+          "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Douglas_County_NE_Parcel_0387581351.png",
+          "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Douglas_County_NE_Parcel_0387581351.pdf"
+        ],
+        "missing": []
+      }
+    },
+    {
+      "check": "site outline contains input coordinates",
+      "status": "PASS",
+      "message": "SKIPPED: no input coordinates were provided.",
+      "details": {
+        "skipped": true
+      }
+    },
+    {
+      "check": "scale bar",
+      "status": "PASS",
+      "message": "Recorded scale, scale-bar length and map width are consistent.",
+      "details": {
+        "scale": "1:1,200",
+        "scale_denominator": 1200.0,
+        "scale_bar_length_metres": 100.0,
+        "map_width_metres": 4317250.34483021
+      }
+    },
+    {
+      "check": "render checklist",
+      "status": "PASS",
+      "message": "Every required checklist element was recorded by render.",
+      "details": {
+        "maps": {
+          "site_plan": {
+            "required": [
+              "SITE LOCATION callout",
+              "image",
+              "north arrow",
+              "red site outline",
+              "scale bar",
+              "title block"
+            ],
+            "recorded": [
+              "SITE LOCATION callout",
+              "image",
+              "north arrow",
+              "red site outline",
+              "scale bar",
+              "title block"
+            ],
+            "missing": []
+          },
+          "site_location": {
+            "required": [
+              "SITE LOCATION callout",
+              "image",
+              "north arrow",
+              "red site outline",
+              "scale bar",
+              "title block"
+            ],
+            "recorded": [
+              "SITE LOCATION callout",
+              "image",
+              "north arrow",
+              "red site outline",
+              "scale bar",
+              "title block"
+            ],
+            "missing": []
+          }
+        }
+      }
+    },
+    {
+      "check": "synthetic parcel rejection",
+      "status": "PASS",
+      "message": "No synthetic/fabricated parcel marker was found.",
+      "details": {
+        "locations": []
+      }
+    }
+  ]
+}

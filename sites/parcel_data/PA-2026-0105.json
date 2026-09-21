@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "name": "PA-2026-0105 synthetic parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "synthetic": true,
+    "purpose": "offline pipeline fixture",
+    "warning": "Fabricated geometry and identifiers. Not a cadastral record. Do not publish a figure drawn from these.",
+    "input_mode": "parcel_ids",
+    "expected_parcels": 3,
+    "expected_total_acres": 3.547,
+    "expected_outline_acres": 3.546,
+    "expected_outline_parts": 1,
+    "expected_outline_vertices": 4
+  },
+  "site_outline": {
+    "type": "Feature",
+    "properties": {
+      "project_number": "PA-2026-0105",
+      "synthetic": true,
+      "derivation": "analytic union of the parcel rectangles",
+      "area_acres": 3.546,
+      "parts": 1,
+      "note": "Compare your dissolve against this. A bounding-box fallback will not reproduce it where the assemblage is L-shaped."
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -112.0749346,
+            33.4481686
+          ],
+          [
+            -112.073305,
+            33.4478295
+          ],
+          [
+            -112.0730654,
+            33.4486314
+          ],
+          [
+            -112.074695,
+            33.4489705
+          ],
+          [
+            -112.0749346,
+            33.4481686
+          ]
+        ]
+      ]
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "044-11-119A",
+        "county": "Maricopa County, AZ",
+        "site_name": "Salt River Industrial Block",
+        "project_number": "PA-2026-0105",
+        "area_acres": 1.182,
+        "synthetic": true,
+        "id_pattern": "###-##-###A",
+        "id_pattern_note": "APN with a trailing letter",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -112.0749346,
+              33.4481686
+            ],
+            [
+              -112.0743914,
+              33.4480556
+            ],
+            [
+              -112.0741518,
+              33.4488575
+            ],
+            [
+              -112.074695,
+              33.4489705
+            ],
+            [
+              -112.0749346,
+              33.4481686
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "666-00-119A",
+        "county": "Maricopa County, AZ",
+        "site_name": "Salt River Industrial Block",
+        "project_number": "PA-2026-0105",
+        "area_acres": 1.046,
+        "synthetic": true,
+        "id_pattern": "###-##-###A",
+        "id_pattern_note": "APN with a trailing letter",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -112.0743914,
+              33.4480556
+            ],
+            [
+              -112.0739109,
+              33.4479556
+            ],
+            [
+              -112.0736713,
+              33.4487575
+            ],
+            [
+              -112.0741518,
+              33.4488575
+            ],
+            [
+              -112.0743914,
+              33.4480556
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "210-90-000A",
+        "county": "Maricopa County, AZ",
+        "site_name": "Salt River Industrial Block",
+        "project_number": "PA-2026-0105",
+        "area_acres": 1.319,
+        "synthetic": true,
+        "id_pattern": "###-##-###A",
+        "id_pattern_note": "APN with a trailing letter",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -112.0739109,
+              33.4479556
+            ],
+            [
+              -112.073305,
+              33.4478295
+            ],
+            [
+              -112.0730654,
+              33.4486314
+            ],
+            [
+              -112.0736713,
+              33.4487575
+            ],
+            [
+              -112.0739109,
+              33.4479556
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

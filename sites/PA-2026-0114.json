@@ -1,0 +1,13 @@
+{
+  "project_number": "PA-2026-0114",
+  "site_name": "Spanish Fork Parkway Pad",
+  "county": "Utah County, UT",
+  "parcel_ids": null,
+  "latitude": null,
+  "longitude": null,
+  "boundary_geojson": "./sites/parcel_data/PA-2026-0114.json",
+  "figures": [
+    "site_plan"
+  ],
+  "output_dir": "./out/PA-2026-0114"
+}

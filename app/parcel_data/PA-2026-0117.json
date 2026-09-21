@@ -1,0 +1,15 @@
+{
+  "project_number": "PA-2026-0117",
+  "site_name": "Rio Grande Bosque Parcel",
+  "county": "Bernalillo County, NM",
+  "parcel_ids": null,
+  "latitude": 35.0844,
+  "longitude": -106.6504,
+  "boundary_geojson": null,
+  "figures": [
+    "site_location",
+    "site_plan",
+    "historical"
+  ],
+  "output_dir": "./out/PA-2026-0117"
+}

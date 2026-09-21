@@ -1,0 +1,288 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/site-exhibits/manifest.schema.json",
+  "title": "Site exhibit manifest",
+  "type": "object",
+  "required": [
+    "project_number",
+    "site_name",
+    "county",
+    "generated_utc",
+    "site_outline",
+    "figures"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "project_number": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}-\\d{4}-\\d{4}$"
+    },
+    "site_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "county": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "tool_version": {
+      "type": "string"
+    },
+    "site_outline": {
+      "type": "object",
+      "required": [
+        "source",
+        "geojson_sha1",
+        "area_acres",
+        "crs_measurement"
+      ],
+      "properties": {
+        "source": {
+          "enum": [
+            "parcel_ids",
+            "coordinates",
+            "boundary_file"
+          ]
+        },
+        "parcel_ids": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "service_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "geojson_sha1": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "area_acres": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "crs_measurement": {
+          "type": "string",
+          "pattern": "^EPSG:\\d{4,6}$"
+        },
+        "contains_input_point": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "figures": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "year",
+          "files",
+          "layer",
+          "scale",
+          "frame",
+          "checklist"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "site_location",
+              "site_plan",
+              "historical"
+            ]
+          },
+          "year": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1900,
+            "maximum": 2100
+          },
+          "files": {
+            "type": "object",
+            "required": [
+              "png"
+            ],
+            "properties": {
+              "png": {
+                "type": "string"
+              },
+              "pdf": {
+                "type": "string"
+              }
+            }
+          },
+          "layer": {
+            "type": "object",
+            "required": [
+              "kind",
+              "source",
+              "cached"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "topo",
+                  "aerial"
+                ]
+              },
+              "source": {
+                "type": "string"
+              },
+              "photo_date": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "cached": {
+                "type": "boolean"
+              },
+              "rms_error_m": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              }
+            }
+          },
+          "scale": {
+            "type": "object",
+            "required": [
+              "map_scale",
+              "dpi"
+            ],
+            "properties": {
+              "map_scale": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "dpi": {
+                "type": "integer",
+                "minimum": 72
+              }
+            }
+          },
+          "frame": {
+            "type": "object",
+            "required": [
+              "crs",
+              "bbox",
+              "width_m",
+              "height_m"
+            ],
+            "properties": {
+              "crs": {
+                "type": "string",
+                "pattern": "^EPSG:\\d{4,6}$"
+              },
+              "bbox": {
+                "type": "array",
+                "minItems": 4,
+                "maxItems": 4,
+                "items": {
+                  "type": "number"
+                }
+              },
+              "width_m": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "height_m": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "unmapped_fraction": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          },
+          "scale_bar": {
+            "type": "object",
+            "required": [
+              "total_ft",
+              "drawn_fraction"
+            ],
+            "properties": {
+              "total_ft": {
+                "enum": [
+                  500,
+                  1000,
+                  2000
+                ]
+              },
+              "drawn_fraction": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 1
+              }
+            }
+          },
+          "checklist": {
+            "type": "object",
+            "description": "One boolean per checklist.md element, recorded by render().",
+            "required": [
+              "background",
+              "site_outline",
+              "callout",
+              "north_arrow",
+              "scale_bar",
+              "title_block"
+            ],
+            "additionalProperties": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "historical": {
+      "type": "object",
+      "properties": {
+        "years_available": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "years_missing": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "combined_pdf": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

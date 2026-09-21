@@ -1,0 +1,263 @@
+{
+  "site": {
+    "county": "Wake County, NC",
+    "parcel_id": "5849695",
+    "projection": "EPSG:32617",
+    "site_outline_source": "coordinates"
+  },
+  "site_plan": {
+    "map_type": "AERIAL",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Wake_County_NC_Parcel_5849695.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Wake_County_NC_Parcel_5849695.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Wake_County_NC_Parcel_5849695.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Wake_County_NC_Parcel_5849695.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Wake_County_NC_Parcel_5849695.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Wake_County_NC_Parcel_5849695.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": 2022,
+      "scale": "1:1,200",
+      "bbox": [
+        713354.7169873926,
+        713586.3649873927,
+        3961947.7445408106,
+        3962203.7765408102
+      ],
+      "layer_bbox": [
+        713224.9903507617,
+        3961722.535873175,
+        713716.0916240237,
+        3962428.9852084457
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_712474.990351_3960972.535873_714466.091624_3963178.985208.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": true,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "cache",
+    "photo_year": 2022,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      713354.7169873926,
+      713586.3649873927,
+      3961947.7445408106,
+      3962203.7765408102
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": true,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "site_location": {
+    "map_type": "TOPO",
+    "outputs": {
+      "png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Wake_County_NC_Parcel_5849695.png",
+      "pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Wake_County_NC_Parcel_5849695.pdf",
+      "aerial_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Wake_County_NC_Parcel_5849695.png",
+      "aerial_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Plan_Wake_County_NC_Parcel_5849695.pdf",
+      "topo_png": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Wake_County_NC_Parcel_5849695.png",
+      "topo_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\Site_Location_Wake_County_NC_Parcel_5849695.pdf",
+      "dpi": 300,
+      "page_size": "US Letter",
+      "year": null,
+      "scale": "1:1,200",
+      "bbox": [
+        713354.7169873926,
+        713586.3649873927,
+        3961947.7445408106,
+        3962203.7765408102
+      ],
+      "layer_bbox": [
+        713224.9903507617,
+        3961722.535873175,
+        713716.0916240237,
+        3962428.9852084457
+      ],
+      "aerial": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2022_pc_nd_m_4709830_nw_14_060_20220823.tif",
+      "topo": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\topo_712474.990351_3960972.535873_714466.091624_3963178.985208.png",
+      "aerial_pdf_created": true,
+      "topo_pdf_created": true,
+      "elements_drawn": {
+        "background_image": true,
+        "site_outline": true,
+        "site_location_callout": true,
+        "north_arrow": true,
+        "scale_bar": true,
+        "title_block": true,
+        "year": false,
+        "frame_border": true
+      },
+      "scale_bar_length_metres": 100,
+      "map_width_metres": 231.6480000000447,
+      "scale_denominator": 1200
+    },
+    "source": "USGS Topo",
+    "photo_year": null,
+    "projection": "EPSG:32614",
+    "scale": "1:1,200",
+    "scale_bar_length_metres": 100,
+    "map_width_metres": 231.6480000000447,
+    "scale_denominator": 1200,
+    "bbox": [
+      713354.7169873926,
+      713586.3649873927,
+      3961947.7445408106,
+      3962203.7765408102
+    ],
+    "elements_drawn": {
+      "background_image": true,
+      "site_outline": true,
+      "site_location_callout": true,
+      "north_arrow": true,
+      "scale_bar": true,
+      "title_block": true,
+      "year": false,
+      "frame_border": true
+    },
+    "site_outline_source": "coordinates"
+  },
+  "historical": {
+    "created_at": "2026-09-10T14:20:51.334980Z",
+    "county": "Wake County, NC",
+    "parcel_id": "5849695",
+    "start_year": 2000,
+    "available": [
+      2023,
+      2021,
+      2019,
+      2017,
+      2015,
+      2013,
+      2010
+    ],
+    "missing": [
+      2026,
+      2025,
+      2024,
+      2022,
+      2020,
+      2018,
+      2016,
+      2014,
+      2012,
+      2011,
+      2009,
+      2008,
+      2007,
+      2006,
+      2005,
+      2004,
+      2003,
+      2002,
+      2001,
+      2000
+    ],
+    "pages": [
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2023.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2021.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2019.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2017.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2015.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2013.png",
+      "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2010.png"
+    ],
+    "downloads": [
+      {
+        "year": 2023,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ok_m_3509611_se_14_030_20230615_20230927",
+        "datetime": "2023-06-15T16:00:00+00:00",
+        "gsd": 0.3,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2023_pc_ok_m_3509611_se_14_030_20230615_20230927.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2023.png",
+        "status": "success"
+      },
+      {
+        "year": 2021,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ok_m_3509611_se_14_060_20210506",
+        "datetime": "2021-05-06T16:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2021_pc_ok_m_3509611_se_14_060_20210506.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2021.png",
+        "status": "success"
+      },
+      {
+        "year": 2019,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ok_m_3509611_se_14_060_20190812_20190926",
+        "datetime": "2019-08-12T00:00:00+00:00",
+        "gsd": 0.6,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2019_pc_ok_m_3509611_se_14_060_20190812_20190926.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2019.png",
+        "status": "success"
+      },
+      {
+        "year": 2017,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ok_m_3509611_se_14_1_20170507_20170725",
+        "datetime": "2017-05-07T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2017_pc_ok_m_3509611_se_14_1_20170507_20170725.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2017.png",
+        "status": "success"
+      },
+      {
+        "year": 2015,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ok_m_3509611_se_14_1_20150623_20150817",
+        "datetime": "2015-06-23T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2015_pc_ok_m_3509611_se_14_1_20150623_20150817.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2015.png",
+        "status": "success"
+      },
+      {
+        "year": 2013,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ok_m_3509611_se_14_1_20130611_20130729",
+        "datetime": "2013-06-11T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2013_pc_ok_m_3509611_se_14_1_20130611_20130729.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2013.png",
+        "status": "success"
+      },
+      {
+        "year": 2010,
+        "source": "USDA NAIP (Planetary Computer)",
+        "item_id": "ok_m_3509611_se_14_1_20100504",
+        "datetime": "2010-05-04T00:00:00+00:00",
+        "gsd": 1.0,
+        "tiff": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\cache\\layers\\naip_2010_pc_ok_m_3509611_se_14_1_20100504.tif",
+        "rendered": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\historical_aerial\\historical_aerial_2010.png",
+        "status": "success"
+      }
+    ],
+    "combined_pdf": "C:\\Users\\aksha\\Desktop\\site-exhibit-agent\\output\\SITE_PLAN_HISTORICAL_SERIES.pdf"
+  }
+}

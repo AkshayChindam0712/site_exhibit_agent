@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "name": "PA-2026-0101 synthetic parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "synthetic": true,
+    "purpose": "offline pipeline fixture",
+    "warning": "Fabricated geometry and identifiers. Not a cadastral record. Do not publish a figure drawn from these.",
+    "input_mode": "parcel_ids",
+    "expected_parcels": 2,
+    "expected_total_acres": 2.774,
+    "expected_outline_acres": 2.774,
+    "expected_outline_parts": 1,
+    "expected_outline_vertices": 4
+  },
+  "site_outline": {
+    "type": "Feature",
+    "properties": {
+      "project_number": "PA-2026-0101",
+      "synthetic": true,
+      "derivation": "analytic union of the parcel rectangles",
+      "area_acres": 2.774,
+      "parts": 1,
+      "note": "Compare your dissolve against this. A bounding-box fallback will not reproduce it where the assemblage is L-shaped."
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -95.9351565,
+            41.2560231
+          ],
+          [
+            -95.9337095,
+            41.2561566
+          ],
+          [
+            -95.9338435,
+            41.2569769
+          ],
+          [
+            -95.9352905,
+            41.2568434
+          ],
+          [
+            -95.9351565,
+            41.2560231
+          ]
+        ]
+      ]
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "0387581351",
+        "county": "Douglas County, NE",
+        "site_name": "Dodge Street Commercial Pad",
+        "project_number": "PA-2026-0101",
+        "area_acres": 1.455,
+        "synthetic": true,
+        "id_pattern": "##########",
+        "id_pattern_note": "digits only, 10",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.9351565,
+              41.2560231
+            ],
+            [
+              -95.9343974,
+              41.2560931
+            ],
+            [
+              -95.9345314,
+              41.2569134
+            ],
+            [
+              -95.9352905,
+              41.2568434
+            ],
+            [
+              -95.9351565,
+              41.2560231
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "6816572479",
+        "county": "Douglas County, NE",
+        "site_name": "Dodge Street Commercial Pad",
+        "project_number": "PA-2026-0101",
+        "area_acres": 1.319,
+        "synthetic": true,
+        "id_pattern": "##########",
+        "id_pattern_note": "digits only, 10",
+        "source": "fabricated fixture; replace with county data before use"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.9343974,
+              41.2560931
+            ],
+            [
+              -95.9337095,
+              41.2561566
+            ],
+            [
+              -95.9338435,
+              41.2569769
+            ],
+            [
+              -95.9345314,
+              41.2569134
+            ],
+            [
+              -95.9343974,
+              41.2560931
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

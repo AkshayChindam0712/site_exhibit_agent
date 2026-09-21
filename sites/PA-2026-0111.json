@@ -1,0 +1,15 @@
+{
+  "project_number": "PA-2026-0111",
+  "site_name": "Peconic Shoreline Tract",
+  "county": "Suffolk County, NY",
+  "parcel_ids": null,
+  "latitude": 40.917,
+  "longitude": -72.662,
+  "boundary_geojson": null,
+  "figures": [
+    "site_location",
+    "site_plan",
+    "historical"
+  ],
+  "output_dir": "./out/PA-2026-0111"
+}

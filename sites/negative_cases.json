@@ -1,0 +1,56 @@
+{
+  "description": "Malformed inputs. resolve_site must return a JSON error naming the offending ID, never raise.",
+  "cases": [
+    {
+      "id": "neg-01",
+      "county": "Douglas County, NE",
+      "parcel_ids": [
+        "9999999999"
+      ],
+      "expect": "not_found, message contains 9999999999"
+    },
+    {
+      "id": "neg-02",
+      "county": "Douglas County, NE",
+      "parcel_ids": [
+        "012-345-6789 "
+      ],
+      "expect": "resolves after cleaning dashes and trailing space"
+    },
+    {
+      "id": "neg-03",
+      "county": "Douglas County, NE",
+      "parcel_ids": [
+        "0123456789",
+        "9999999999"
+      ],
+      "expect": "partial_failure, one resolved one named as missing"
+    },
+    {
+      "id": "neg-04",
+      "county": "Nowhere County, ZZ",
+      "parcel_ids": [
+        "0123456789"
+      ],
+      "expect": "unsupported_county"
+    },
+    {
+      "id": "neg-05",
+      "county": "Douglas County, NE",
+      "parcel_ids": [],
+      "latitude": null,
+      "longitude": null,
+      "expect": "invalid_request, no locator supplied"
+    },
+    {
+      "id": "neg-06",
+      "county": "Douglas County, NE",
+      "parcel_ids": [
+        "0123456789"
+      ],
+      "latitude": 25.0,
+      "longitude": -80.0,
+      "expect": "coordinate_outside_outline warning"
+    }
+  ]
+}

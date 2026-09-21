@@ -1,0 +1,15 @@
+{
+  "project_number": "PA-2026-0119",
+  "site_name": "Chena Flats Tract",
+  "county": "Fairbanks North Star Borough, AK",
+  "parcel_ids": null,
+  "latitude": 64.8378,
+  "longitude": -147.7164,
+  "boundary_geojson": null,
+  "figures": [
+    "site_location",
+    "site_plan",
+    "historical"
+  ],
+  "output_dir": "./out/PA-2026-0119"
+}

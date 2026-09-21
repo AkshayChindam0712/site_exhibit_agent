@@ -1,0 +1,15 @@
+{
+  "project_number": "PA-2026-0104",
+  "site_name": "College Boulevard Office Tract",
+  "county": "Johnson County, KS",
+  "parcel_ids": null,
+  "latitude": 38.9822,
+  "longitude": -94.6708,
+  "boundary_geojson": null,
+  "figures": [
+    "site_location",
+    "site_plan",
+    "historical"
+  ],
+  "output_dir": "./out/PA-2026-0104"
+}

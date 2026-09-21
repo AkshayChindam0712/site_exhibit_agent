@@ -1,0 +1,15 @@
+{
+  "project_number": "PA-2026-0102",
+  "site_name": "Elkhorn Draw Acreage",
+  "county": "Douglas County, NE",
+  "parcel_ids": null,
+  "latitude": 41.286,
+  "longitude": -96.236,
+  "boundary_geojson": null,
+  "figures": [
+    "site_location",
+    "site_plan",
+    "historical"
+  ],
+  "output_dir": "./out/PA-2026-0102"
+}
